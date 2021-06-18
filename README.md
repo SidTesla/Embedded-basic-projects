@@ -1,5 +1,5 @@
 # Embedded-basic-projects
-My initial coding projects with PIC16F877A microcontroller
+My initial coding projects with PIC16F877A microcontroller. Simulation was done using Proteus.
 
 1. Switch interface: Controlling LEDs using push buttons
 2. ADC_PWM_LCD: Controlling PWM duty cycle with potentiometer and displaying corresponding message in 16x2 LCD display
