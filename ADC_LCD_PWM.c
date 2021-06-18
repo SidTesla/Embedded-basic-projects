@@ -27,11 +27,11 @@
 #include <xc.h>
 #define _XTAL_FREQ 6000000
 
-void init();
-void LCDOutput(unsigned int);
-void delay(unsigned int);
-void lcdCommand(unsigned char);
-void lcdData(unsigned char);
+void init();                        //initialization function
+void LCDOutput(unsigned int);       //Display message to LCD
+void delay(unsigned int);           
+void lcdCommand(unsigned char);     //send command to LCD
+void lcdData(unsigned char);        //send data to LCD
 unsigned int highOrder, lowOrder, value, lcdValue, duty;
 unsigned char i, string[5]="rides";
 
